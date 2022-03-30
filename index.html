@@ -12,12 +12,47 @@
     <title>Freelancer</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="header"></div>
+    <div class="wrapper_top darker">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10 col-md-8">
+                    <h1 class="text-white" >START BOOTSTRAP</h1>
+                </div>
+                <div class="col-2 col-md-4">
+                    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #2c3e50 ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PORTFOLIO</a>
+                              </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+                    <!--
+
+                   
+                    <nav class="nav">
+                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Link</a>
+                      </nav>
+                </div> -->
+                
+
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="wrapper ciano">
+    </div> 
+    <div class="wrapper mb-1 ciano">
         <div class="container-fluid">
             <div id="centro_jumbo">
                 <div class="logo_jumbo">
@@ -33,9 +68,9 @@
             </div>
         </div>
     </div>
-    <div class="wrapper"> 
-        <div class="container-fluid testo-centrale">
-            <span class="testo_bold testo_scuro">PORTFOLIO</span>
+    <div class="wrapper mb-1"> 
+        <div class="container-fluid">
+            <h2 class="text-center fw-bold testo_scuro">PORTFOLIO</h2>
             <div id="separatore_stella">
                 <div class="barra_orizzontale blu"></div>
                 <div><i class="fas fa-star stella_blu"></i></div>
@@ -44,7 +79,7 @@
         </div>
     </div> 
     <div class="container">
-        <div class="row gy-4">
+        <div class="row gy-4 mb-5">
             <div class="col-12 col-md-6 col-lg-4">
                 <img src="img/cabin.png" alt="">
             </div>
@@ -65,39 +100,40 @@
             </div>
         </div>
     </div> 
-    <div class="wrapper ciano">
-        <div class="container-fluid testo-centrale">
-            <span class="testo_bold testo_bianco">ABOUT</span>
+    <div class="wrapper mb-1 ciano">
+        <div class="container-fluid w-75 px-5">
+            <h2 class="fw-bold text-white text-center">ABOUT</h2>
             <div id="separatore_stella">
                 <div class="barra_orizzontale"></div>
                 <div><i class="fas fa-star stella"></i></div>
                 <div class="barra_orizzontale"></div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 text-white mb-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam enim asperiores voluptatibus, non reprehenderit modi iste animi ab officia explicabo. Rem, aperiam officia? Nisi, neque quas tempora vero tenetur harum!
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 text-white">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nobis alias aperiam tempore aliquam ipsa nesciunt excepturi doloremque fuga. Non, quae voluptates. Labore mollitia inventore atque velit at esse aut.
                 </div>
             </div>
         </div>
     </div>
-    <div class="wrapper">
-        <div class="container-fluid testo-centrale">
-            <span class="testo_scuro testo_bold">CONTACT ME</span>
+    <div class="wrapper mb-1">
+        <div class="container-fluid">
+            <h2 class="testo_scuro text-center fw-bold">CONTACT ME</h2>
             <div id="separatore_stella">
                 <div class="barra_orizzontale blu"></div>
                 <div><i class="fas fa-star stella_blu"></i></div>
                 <div class="barra_orizzontale blu"></div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 px-5">
                     <form>                          
                         <div class="form-group">
                             <label for="formGroupExampleInput">Name</label>
                             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
                         </div>
+                        <div>
                             <label for="exampleInputEmail1">Email</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
                             <small id="emailHelp" class="form-text text-muted"></small>
@@ -106,6 +142,7 @@
                             <label for="formGroupExampleInput2">Phone Number</label>
                             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
                         </div>
+                        <div>
                             <label for="exampleFormControlTextarea1">Message</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
@@ -116,21 +153,39 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid cobalto">
-        <div class="wrapper">
-            <div class="row">
-                <div class="col-12 col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum rem vitae aspernatur provident reprehenderit nobis inventore omnis dolorum, consectetur iusto incidunt id accusamus quasi ratione doloremque dicta, porro reiciendis saepe.</div>
-                <div class="col-12 col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem, illum nam dolorum amet impedit aliquam numquam ipsa. Eum hic necessitatibus numquam eligendi iure ab omnis laboriosam alias cumque nulla.</div>
-                <div class="col-12 col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum eaque rem est quisquam laboriosam suscipit, odio quae pariatur fuga maiores veritatis ipsum consequatur vero, eveniet cumque facere? Eligendi, atque.</div>
+    </div> 
+    <div class="wrapper cobalto">
+        <div class="container-fluid">
+            <div class="row gy-2">
+                <div class="col-12 col-md-4 text-center text-white">
+                     <div>
+                         LOCATION
+                    </div>
+                    2215 John Daniel Drive Clark, MO 54243
+                </div>
+                <div class="col-12 col-md-4 text-center text-white"> 
+                    <div>
+                        AROUND THE WEB
+                    </div> 
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="rounded-circle border border-white" ><i class="fab fa-facebook-f align-text-bottom"></i></div>
+                        <div class="rounded-circle border border-white"><i class="fab fa-google-plus-g"></i></div>
+                        <div class="rounded-circle border border-white"><i class="fab fa-twitter"></i></div>
+                        <div class="rounded-circle border border-white"><i class="fab fa-linkedin-in"></i></div>
+                    </div> 
+                </div>
+                <div class="col-12 col-md-4 text-center text-white"> 
+                    <div>ABOUT FREELANCER</div>
+                     Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap
+                </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="wrapper">
+    <div class="wrapper darker">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    testo testo testo testo
+                    Copyright c Your Website 2019
                 </div>
             </div>
         </div>
